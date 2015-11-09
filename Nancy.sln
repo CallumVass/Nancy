@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Host", "Nancy.Host\Nancy.Host.csproj", "{B02B65A0-F72C-4857-961F-C15BF22FEEEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{74E03D45-40FA-45A0-9D20-1B3E1145E7E4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Data", "Nancy.Data\Nancy.Data.csproj", "{7741D0A9-242F-4E71-9B84-E373EC040B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeOtherClient", "SomeOtherClient\SomeOtherClient.csproj", "{DF1B5298-BA70-4150-BCCD-980BC6085E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B02B65A0-F72C-4857-961F-C15BF22FEEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02B65A0-F72C-4857-961F-C15BF22FEEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02B65A0-F72C-4857-961F-C15BF22FEEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02B65A0-F72C-4857-961F-C15BF22FEEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7741D0A9-242F-4E71-9B84-E373EC040B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7741D0A9-242F-4E71-9B84-E373EC040B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7741D0A9-242F-4E71-9B84-E373EC040B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7741D0A9-242F-4E71-9B84-E373EC040B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1B5298-BA70-4150-BCCD-980BC6085E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1B5298-BA70-4150-BCCD-980BC6085E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1B5298-BA70-4150-BCCD-980BC6085E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1B5298-BA70-4150-BCCD-980BC6085E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
